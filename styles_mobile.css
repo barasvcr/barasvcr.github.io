@@ -51,6 +51,15 @@ div {
 
 /* horni lista ------------------------------------------------------------------*/
 
+/* .odsazeni { */
+    /* background-color: red; */
+    /* position: absolute; */
+    /* left: 0vw; */
+/* } */
+
+.nav {
+    display: fl
+}
 
 .nav ul {
     margin: 0;
@@ -58,9 +67,10 @@ div {
 
 .nav li {
     display: inline;
-    padding: .5em;
+    /* padding: .5em; */
     color: white;
     text-decoration: none;
+    padding: 0 5% 0 0;
 }
 
 .nav a {
@@ -70,16 +80,13 @@ div {
     text-decoration: none;
 }
 
-.main-nav {
+.nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 
-.main-nav li {
-    padding: 0 2vw;
-}
 
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3)
