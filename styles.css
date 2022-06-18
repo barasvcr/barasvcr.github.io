@@ -57,6 +57,8 @@ div {
     padding: .5em;
     color: white;
     text-decoration: none;
+    padding: 0 5%;
+    left: 10px;
 }
 
 .nav a {
@@ -66,16 +68,13 @@ div {
     text-decoration: none;
 }
 
-.main-nav {
+.nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 
-.main-nav li {
-    padding: 0 5%;
-}
 
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3)
