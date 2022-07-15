@@ -40,10 +40,6 @@ h2 {
     padding: 0;
 }
 
-div {
-    /* margin: 0; */
-    /* padding: 0; */
-}
 
 /* horni lista ------------------------------------------------------------------*/
 
@@ -105,11 +101,9 @@ div {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    /* max-width: 1700px; */
     display: block;
     margin: 0 auto;
     width: 100%;
-    /* background-attachment:fixed; */
 }
 
 .hlavni-nadpis {
@@ -122,16 +116,6 @@ div {
     padding-top: 400px;
     padding-bottom: 20px;
 }
-
-/* .ubytovani-nadpis { */
-    /* text-align: center; */
-    /* margin: 0; */
-    /* font-size: 4em; */
-    /* font-family: Raleway; */
-    /* color: white; */
-    /* font-weight: 100; */
-    /* padding-top: 300px; */
-/* } */
 
 .hlavni-nadpis-velky {
     font-size: 4em; 
@@ -168,12 +152,8 @@ div {
     border-bottom-left-radius: 2em;
     border-style:solid;
     border-width: 1em;
-    /* border-color: #f7cd00a6; */
-    /* border-color: #608f2369; */
     border-color: rgba(77, 77, 77, 0.137);
-    /* border-color: rgba(248, 164, 178, 0.4); */
     padding: 10px;
-    /* border-radius: 3em; */
 
 }
 
@@ -186,12 +166,8 @@ div {
     border-top-left-radius: 2em;
     border-style: solid;
     border-width: 1em;
-    /* border-color: rgba(237, 212, 240, 0.849); */
-    /* border-color: rgba(224, 151, 171, 0.336); */
     border-color: rgba(77, 77, 77, 0.4);
     padding: 10px;
-
-    /* border-radius: 3em; */
 
 }
 
@@ -208,12 +184,9 @@ div {
 }
 
 .obrazky {
-    /* width: 3%; */
-    /* display: flex; */
     display:none;
     align-items: center;
     gap: 1%;
-    /* text-align: center; */
     justify-content: center;
     margin: 50px -50px 70px -50px;
     padding: 6%;
@@ -225,7 +198,6 @@ div {
 .main-footer {
     background-color: #777;
     color: white;
-    /* position: static; */
     bottom: 0;
     width: 100%;
     display: flex;
@@ -248,18 +220,11 @@ div {
 /* nastaveni jednotlivych sekci (pozadi, margin) ---------------------------------------------- */
 
 .sekce_barva {
-    /* background-color: rgba(228, 207, 207, 0.226); */
-    /* background-color: rgba(224, 151, 171, 0.05); */
-    /* background-color: rgba(75, 82, 64, 0.1); */
-    /* background:  linear-gradient(124deg,  rgba(75, 82, 64, 0.1), rgba(224, 151, 171, 0.05), rgba(228, 207, 207, 0.226)); */
     padding-bottom: 50px;
     background-color: rgba(85, 85, 85, 0.048);
 }
 
 .sekce_bila {
-    /* background-color: rgba(228, 207, 207, 0.226); */
-    /* background-color: rgba(224, 151, 171, 0.05); */
-    /* background-color: rgba(75, 82, 64, 0.1); */
     padding-bottom: 50px;
 
 }
@@ -271,13 +236,10 @@ div {
     padding-left: 40px;
     padding-right: 40px;
     background-color: rgba(180, 180, 180, 0.253);
-    /* background-color: rgba(114, 146, 72, 0.129); */
     font-size: 20px; 
     cursor: pointer;
     border-color: rgba(197, 197, 197, 0.281);
-    /* border-color: rgba(107, 141, 64, 0.129); */
     border-radius: 20px 0px 20px 0px;
-    /* border-radius: 30px; */
     border-style: solid; 
     border-width: 5px;
     transition-duration: 0.4s;
@@ -299,20 +261,13 @@ div {
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    /* background-color: rgba(237, 212, 240, 0.849); */
-    /* background-color: rgba(238, 225, 228, 0.363); */
     font-size: 20px; 
     cursor: pointer;
-    /* border-color: rgba(237, 212, 240, 0.849); */
-    /* border-color: rgba(236, 226, 228, 0.5); */
     border-radius: 20px 0px 20px 0px;
-    /* border-radius: 30px; */
     border-style: solid; 
     border-width: 5px;
     transition-duration: 0.4s;
-
     background-color: rgba(180, 180, 180, 0.253);
-
     border-color: rgba(197, 197, 197, 0.281);
         
     }
@@ -331,16 +286,11 @@ div {
 }
 
 .kdykde_sekce {
-    /* min-height: 90vh; */
-    /* overflow-x: hidden; */
     background-image: url(obrazky/modlitebna.jpg);
     background-color: rgba(58, 53, 46, 0.637);
     background-blend-mode: multiply;
     background-size: cover;
     background-attachment: fixed;
-    /* background-position: center; */
-    /* margin-left: -50px; */
-    /* margin-right: -50px; */
 }
 
 .kdykde_pismo {
@@ -354,9 +304,7 @@ div {
    
 .timeline ol {
     font-size: 0;
-    /* width: 100vw; */
     padding: 200px 0;
-    /* transition: all 1s; */
 }
    
 .timeline ol li {
@@ -388,23 +336,17 @@ div {
     height: 10px;
     transform: translateY(-50%);
     border-radius: 50%;
-    /* background: #dac406; */
-    /* background: #ffffff; */
-    /* background: rgba(165, 196, 128, 0.788); */
 }
 
 .timeline ol li:nth-child(odd)::after {
-    /* background: rgba(165, 196, 128, 0.788); */
     background: rgba(255, 255, 255, 0.301);
 }
 
 .timeline ol li:nth-child(2)::after {
-    /* background: rgba(165, 196, 128, 0.788); */
     background: rgba(255, 255, 255, 0.301);
 }
 
 .timeline ol li:nth-child(4)::after {
-    /* background: rgba(165, 196, 128, 0.788); */
     background: rgba(255, 255, 255, 0.301);
 }
 
@@ -412,7 +354,6 @@ div {
 
 .timeline ol li div {
     position: absolute;
-    /* left: calc(100%); */
     width: 80%;
     min-width: 100px;
     min-height: 100px;
@@ -424,7 +365,6 @@ div {
  }
   
 .timeline ol li div::before {
-    /* content: ''; */
     position: relative;
     top: 100%;
     left: 0;
@@ -442,13 +382,7 @@ div {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-  
-/* .timeline ol li:nth-child(odd) div::before { */
-    /* top: 99%; */
-    /* left: 10px; */
-    /* border-width: 16px 8px 0 8px; */
-    /* border-color: rgba(255, 255, 255, 1) transparent transparent transparent; */
-/* } */
+
   
 .timeline ol li:nth-child(even) div {
     top: calc(100% + 30px);
@@ -458,13 +392,6 @@ div {
     border-top-right-radius: 20px;
 }
   
-/* .timeline ol li:nth-child(even) div::before { */ 
-    /* top: -16px; */
-    /* left: 10px; */
-    /* border-width: 0 8px 16px 8px; */
-    /* border-color: transparent transparent rgba(255, 255, 255, 1) transparent; */
-
-/* } */
   
 .timeline time {
     display: block;
